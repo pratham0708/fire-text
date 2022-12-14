@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #0e0e0e;
+}
+.text{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    filter: url(#fire);
+}
+.text h2{
+    position: relative;
+    color: #ffeb3b;
+    font-weight: 600;
+    font-size: 16em;
+    -webkit-box-reflect: below -100px linear-gradient(transparent,#0008);
+    text-shadow: 0 0 10px #ff8c3b,
+     0 0 40px #ff8c3b,
+     0 0 80px #ff8c3b,
+     0 0 160px #ff8c3b,
+     0 0 240px #ff8c3b;
+
+
+}
+svg{
+    height: 0;
+    width: 0;
+}
